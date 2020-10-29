@@ -314,8 +314,7 @@ a:hover {
 }
 
 .aList {
-    display: flex;
-    justify-content: center;
+    margin-right: 15px;
 }
 
 ul.aList {
@@ -323,7 +322,9 @@ ul.aList {
   }
 
 .contactInfoEtc {
-    
+    position: relative;
+    left:110px;
+    top:-450px;
     margin:30px;
     margin-bottom:70px;
     text-align: center;
@@ -335,6 +336,7 @@ ul.aList {
 }
 
 table, th, td {
+    font-size: 13px;
     border: 1px solid black;
-    margin:5px;
+    margin:1px;
   }

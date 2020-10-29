@@ -323,8 +323,8 @@ ul.aList {
 
 .contactInfoEtc {
     position: relative;
-    right:-190px;
-    top:-200px;
+    right:333px;
+    top:-240px;
     margin:30px;
     margin-bottom:70px;
     text-align: center;
@@ -338,4 +338,9 @@ ul.aList {
 table, th, td {
     border: 1px solid black;
     margin:5px;
+  }
+
+  .googleCal {
+      width:97%;
+      height:380px;
   }
