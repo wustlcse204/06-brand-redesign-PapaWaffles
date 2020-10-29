@@ -36,10 +36,7 @@ body {
     margin-left: 10px;
 }
 .rightSide {
-    position: relative;
-    float: right;
-    top:-50px;
-    left:300px;
+    display:none;
 }
 
 .doofus {
@@ -105,7 +102,7 @@ a:hover {
 
 .introTxtBox {
     position: absolute;
-    margin-top: 110px;
+    margin-top: 70px;
     background-color: rgb(36, 102, 177, .8);
     border-radius: 5px;
     color:white;
@@ -126,19 +123,19 @@ a:hover {
 
 
 .mstInfo {
-    font-size: 21px;
+    font-size: 9px;
     margin-left:10px;
 }
 
 .oTown {
     width:100%;
-    height:230px;
+    height:100%;
     border-radius: 5px;
 }
 
 .kirk {
     width:100%;
-    height:230px;
+    height:100%;
     border-radius: 5px;
 }
 
@@ -211,8 +208,12 @@ a:hover {
     border-radius: 7px;
     padding: 20px;
     background-color: #69995D;
-    width:50%;
+    width:80%;
     vertical-align: center;
+}
+
+.googleCal {
+    display:none;
 }
 
 .amounts {
@@ -322,9 +323,7 @@ ul.aList {
   }
 
 .contactInfoEtc {
-    position: relative;
-    right:-190px;
-    top:-200px;
+    
     margin:30px;
     margin-bottom:70px;
     text-align: center;
