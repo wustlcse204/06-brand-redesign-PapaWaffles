@@ -34,6 +34,7 @@ body {
 .logo {
     margin-top: 14px;
     margin-left: 10px;
+    z-index: 8;
 }
 .rightSide {
     display:none;
@@ -176,6 +177,10 @@ a:hover {
     color: white;
 }
 
+#aRbutton:hover {
+    color:black;
+}
+
 #tSbutton {
     background-color: rgb(218, 105, 18); 
     border-style: solid;
@@ -184,6 +189,10 @@ a:hover {
     border-radius: 3px;
     margin-bottom:20px;
     color: white;
+}
+
+#tSbutton:hover {
+    color:black;
 }
 
 .filler {
@@ -253,7 +262,6 @@ a:hover {
 }
 
 #confirmButt:hover {
-    background-color: gray;
     color: black;
   }
 

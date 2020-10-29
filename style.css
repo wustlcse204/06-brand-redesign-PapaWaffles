@@ -29,12 +29,18 @@ body {
     top: 0;
     width: 100%;
     height: 154px;
-    z-index: 10;
+    
   }
 .logo {
     margin-top: 14px;
     margin-left: 10px;
+    z-index: 10;
 }
+
+.logoPic {
+    z-index: 10;
+}
+
 .rightSide {
     position: relative;
     float: right;
@@ -86,7 +92,12 @@ a:hover {
     height:40px;
     width:140px;
 }
-.donateButt {
+
+.impButt:hover{
+    color:black;
+}
+
+.btn {
     margin-bottom: 27px;
     margin-top:10px;
     background-color: rgb(218, 105, 18);
@@ -179,6 +190,10 @@ a:hover {
     color: white;
 }
 
+#aRbutton:hover {
+    color:black;
+}
+
 #tSbutton {
     background-color: rgb(218, 105, 18); 
     border-style: solid;
@@ -187,6 +202,10 @@ a:hover {
     border-radius: 3px;
     margin-bottom:20px;
     color: white;
+}
+
+#tSbutton:hover {
+    color:black;
 }
 
 .filler {
@@ -252,7 +271,6 @@ a:hover {
 }
 
 #confirmButt:hover {
-    background-color: gray;
     color: black;
   }
 
